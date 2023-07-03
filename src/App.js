@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Master from "./components/Master";
 
 function App() {
   return (
     <div className="App">
-      <p>DT task 1</p>
+      <Master />
     </div>
   );
 }
