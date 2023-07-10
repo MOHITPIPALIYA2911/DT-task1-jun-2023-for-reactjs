@@ -1,0 +1,59 @@
+/* Why css file? : some css properties are not available in tailwind css  EX: right,trasition*/
+.popi {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ==============================SideBar [Journey Board]======================================== */
+/* Whole sidebar */
+#sdbar {
+  right: -200px;
+  transition: left 0.3s ease;
+}
+
+/* sidebar header text */
+#sidebarHeadTxt {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.32px;
+}
+
+/* buttons available in sidebar head */
+label #opn,
+label #cls {
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  font-size: large;
+}
+
+/* Content of sidebar */
+#sideBarContent {
+  overflow: visible;
+  word-wrap: break-word;
+}
+#sdbar::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar on WebKit-based browsers */
+}
+ul {
+  list-style-type: disc;
+  padding-left: 18px;
+}
+li {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+#sideBarNum {
+  position: absolute;
+  right: 0px;
+}
+
+/* ==============================SideBar [Notice Board]======================================== */
+/* Whole sidebar */
+#nBar {
+  right: -450px;
+  transition: left 0.3s ease;
+}
+#noticeHead {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: "Poppins", sans-serif;
+}

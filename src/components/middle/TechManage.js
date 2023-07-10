@@ -3,10 +3,11 @@ import ContainerComp from "./ContainerComp";
 
 const TechManage = () => {
   return (
-    <div>
-      <ContainerComp />
-      <p>TechManage</p>
-    </div>
+    <>
+      <ContainerComp head="Technical Project Management" desc="Story of Alignment Scope of Agility Specific Accountable Staggering Approach">
+        <p>THIS IS A CHILD</p>
+      </ContainerComp>
+    </>
   );
 };
 

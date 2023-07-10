@@ -3,10 +3,11 @@ import ContainerComp from "./ContainerComp";
 
 const FourSA = () => {
   return (
-    <div>
-      <ContainerComp />
-      <p>i'm 4SA</p>
-    </div>
+    <>
+      <ContainerComp head="4SA Method" desc="To Explore more read more ">
+        <p>THIS IS A CHILD</p>
+      </ContainerComp>
+    </>
   );
 };
 
